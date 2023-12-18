@@ -26,23 +26,21 @@
             <form action="./index.html" id="signup">
                 <h1>Let's do this!</h1>
                 <section>
-                    <div class="row-1">
+                    <div class="left">
                         <label for="fname">First name</label>
-                        <input type="text" id="fname" name="fname">
-                        <label for="lname">Last name</label>
-                        <input type="text" id="lname" name="lname">
-                    </div>
-                    <div class="row-2">
+                        <input type="text" id="fname" name="fname" tabindex="1">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                        <label for="pnumber">Phone number</label>
-                        <input type="tel" id="pnumber" name="pnumber">
-                    </div>
-                    <div class="row-3">
+                        <input type="email" id="email" name="email" tabindex="3">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" tabindex="5">
+                    </div>
+                    <div class="right">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname" tabindex="2">
+                        <label for="pnumber">Phone number</label>
+                        <input type="tel" id="pnumber" name="pnumber" tabindex="4">
                         <label for="cpassword">Confirm password</label>
-                        <input type="password" id="cpassword" name="cpassword">
+                        <input type="password" id="cpassword" name="cpassword" tabindex="6">
                     </div>
                 </section>
             </form>
