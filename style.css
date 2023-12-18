@@ -113,6 +113,10 @@ input[tabindex]:focus {
     box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.15);
 }
 
+input[tabindex]:invalid {
+    border: 1px solid #ff0c34;  
+}
+
 div > label {
     text-transform: uppercase;
     font-weight: bold;
